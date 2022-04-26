@@ -1,6 +1,25 @@
 package org.launchcode.studio7;
 
-public class DVD {
+public class DVD extends BaseDisc implements OpticalDisc {
+
+    public DVD(String discName, int discCapacity, int yearReleased) {
+        super(discName, discCapacity, yearReleased);
+    }
+
+    @Override
+    public void spinDisc() {
+
+    }
+
+    @Override
+    public void skipForward() {
+
+    }
+
+    @Override
+    public void skipBack() {
+
+    }
 
     // TODO: Implement your custom interface.
 
